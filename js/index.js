@@ -9,11 +9,16 @@ console.log(myString);
 const myNumber = 345;
 const number = 10;
 console.log(myNumber + number);
-const myNull = "null";
+const myNull = null;
 console.log(myNull);
 const valuA = 'string';
 console.log(Number(valuA));
-const word = "hello World";
-console.log(word)
-
+const userName = prompt("Введіть своє ім’я");
+alert(userName);
+console.log(typeof (userName));
+const userAnswer = confirm("Ви дійсно хочете покинути сторінку?");
+console.log(userAnswer);
+const message = "Увага! Дія може бути небезпечною.";
+const warning = confirm("Ви впевнені, що хочете продовжити?");
+alert(message);
 
