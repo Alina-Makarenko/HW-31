@@ -35,7 +35,7 @@ const health2 = health - 40;
 console.log(health2);
 const energy = 500;
 const energy2 = energy - 100;
-console.log(energy);
+console.log(energy2);
 const totalPrice = 500;
 const discount = 10;
 const discountedPrice = totalPrice - ((totalPrice * discount)/100);
