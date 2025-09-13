@@ -22,42 +22,61 @@
 // alert(message);
 
 // HW 32
-const celsius = 20;
-const fahrenheit = (celsius * 9 / 5) + 32;
-console.log(fahrenheit);
-const daysInMonth = 30;
-const hoursInMonth = daysInMonth * 24;
-console.log(hoursInMonth);
-const minutesInMonth = hoursInMonth * 60;
-console.log(minutesInMonth);
-const health = 100;
-const health2 = health - 40;
-console.log(health2);
-const energy = 500;
-const energy2 = energy - 100;
-console.log(energy2);
-const totalPrice = 500;
-const discount = 10;
-const discountedPrice = totalPrice - ((totalPrice * discount)/100);
-console.log(discountedPrice);
-const floatNumber = 12.78;
-const numbers = Math.floor(floatNumber)
-console.log(numbers);
-const floatString = "45.67";
-const string = parseFloat(floatString);
-console.log(string);
-const intString = "123";
-const parsedInt = parseInt(intString);
-console.log(parsedInt);
-const number = 9;
-const result = Math.sqrt(number);
+// const celsius = 20;
+// const fahrenheit = (celsius * 9 / 5) + 32;
+// console.log(fahrenheit);
+// const daysInMonth = 30;
+// const hoursInMonth = daysInMonth * 24;
+// console.log(hoursInMonth);
+// const minutesInMonth = hoursInMonth * 60;
+// console.log(minutesInMonth);
+// const health = 100;
+// const health2 = health - 40;
+// console.log(health2);
+// const energy = 500;
+// const energy2 = energy - 100;
+// console.log(energy2);
+// const totalPrice = 500;
+// const discount = 10;
+// const discountedPrice = totalPrice - ((totalPrice * discount)/100);
+// console.log(discountedPrice);
+// const floatNumber = 12.78;
+// const numbers = Math.floor(floatNumber)
+// console.log(numbers);
+// const floatString = "45.67";
+// const string = parseFloat(floatString);
+// console.log(string);
+// const intString = "123";
+// const parsedInt = parseInt(intString);
+// console.log(parsedInt);
+// const number = 9;
+// const result = Math.sqrt(number);
+// console.log(result);
+// const integer = 42;
+// const convertedString = integer.toString();
+// console.log(convertedString);
+// const stringNumber = "256";
+// const convertedInt = parseInt(stringNumber);
+// console.log(convertedInt);
+
+// HW-33
+const result = 5 + 5 + "5";
 console.log(result);
-const integer = 42;
-const convertedString = integer.toString();
-console.log(convertedString);
-const stringNumber = "256";
-const convertedInt = parseInt(stringNumber);
-console.log(convertedInt);
+console.log(typeof(result));
+const email = "alina1807@gmail.com";
+console.log(email.includes("@"));
+console.log(email.length);
+const my = "My";
+const names = "name";
+const is = "is";
+const v = "Viktor";
+const fullName =  my + "," + " " + names + "," + " " + is + " ";
+console.log(fullName + v + ".");
+const userName = "Олександро";
+const payment = 300;
+console.log(alert(`Дякуємо, ${userName}! До сплати ${payment} гривень`));
+
+
 
 
 
